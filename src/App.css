@@ -1,0 +1,96 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_data {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 45px 35px;
+    background: #f1f1f1;
+    width: 450px;
+    height: auto;
+    margin: 15px;
+    
+}
+
+.form_data form {
+    background: #f1f1f1;
+}
+
+.form_data h1 {
+    padding: 25px;
+    text-align: center;
+    font-size: 28px;
+    background: #f1f1f1;
+}
+
+.form_data input {
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.form_data form button {
+    width: 100%;
+    padding: 18px;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+.to_do_list {
+    width: 450px;
+    height: auto;
+    margin: 15px;
+}
+
+.center_div {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.to_do_list h1 {
+    background: purple;
+    color: #f1f1f1;
+    padding: 14px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.center_div input {
+    padding: 10px;
+    font-size: 18px;
+    margin: 14px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    text-align: center;
+}
+
+.center_div button {
+    border-radius: 50%;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.center_div ol {
+    margin-bottom: 35px;
+    list-style: none;
+}
+
+.center_div ol li {
+    font-size: 25px;
+    padding: 14px;
+}
+
+.center_div ol li button {
+    cursor: pointer;
+}
+
+.list-item {
+    /* display: flex; */
+}
